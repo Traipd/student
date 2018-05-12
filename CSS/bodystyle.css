@@ -1,0 +1,129 @@
+@charset "utf-8";
+body {
+	background-image: url(../image/background.jpg);
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#mine {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	margin-top: 10px;
+
+}
+#nav {
+	height: 44px;
+}
+#navcenter {
+	background-image: url(../image/title.jpg);
+	height: 44px;
+	width: 1000px;
+	float: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+
+#logo {
+	background-image: none;
+	height: 80px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
+#logo2 {
+	background-image: url(../image/logo_school.png);
+	float: left;
+	height: 70px;
+	width: 350px;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+}
+#logo3 {
+	background-image: url(../image/logo_jw.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 70px;
+	width: 170px;
+	margin-top: 10px;
+}
+#welcome {
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	width: 480px;
+	line-height: 30px;
+	padding-right: 0px;
+	text-align: justify;
+	text-indent: 170px;
+	padding-top: 40px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFF;
+}
+
+#nav ul {
+	padding: 0px;
+	list-style-type: none;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav a:hover {
+	background-image: url(../image/move.jpg);
+}
+
+
+#nav li {
+	float: left;
+}
+#bottom {
+	background-color: #3CF;
+	height: 30px;
+	margin-top: 10px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	font-weight: 500;
+	color: #06F;
+}
+.clear {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+#nav a {
+	display: block;
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #06F;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+}
+#content {
+	height: 500px;
+	margin-top: 20px;
+}

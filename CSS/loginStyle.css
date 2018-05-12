@@ -1,0 +1,128 @@
+@charset "utf-8";
+body {
+	background-image: url(../image/bk.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+}
+#mine {
+	width: 1000px;
+	height: 760px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo {
+	background-image: url(../image/logo_school.png);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 400px;
+	margin-top: 20px;
+}
+#logo2 {
+	background-image: url(../image/logo_jw.png);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 170px;
+	margin-left: 350px;
+}
+#center {
+	height: 400px;
+	width: 480px;
+	margin-top: 45px;
+	margin-left: 250px;
+	border: 15px groove #6FF;
+	background-image: url(../image/bkk.png);
+	background-repeat: no-repeat;
+}
+#user {
+	height: 60px;
+	width: 480px;
+}
+#login {
+	width: 480px;
+	height: 370px;
+	margin-top: 30px;
+}
+
+
+#top {
+	background-image: none;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 460px;
+	border-bottom-width: 4px;
+	border-bottom-style: groove;
+	border-bottom-color: #6FF;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#topleft {
+	background-image: url(../image/logo.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+#toprigth {
+	float: left;
+	height: 100px;
+	width: 360px;
+	line-height: 100px;
+	text-align: left;
+	font-size: 24px;
+	font-weight: 800;
+	color: #09F;
+	text-indent: 50px;
+}
+#userleft {
+	background-image: url(../image/user.png);
+	float: left;
+	height: 60px;
+	width: 60px;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+}
+#loginright {
+	float: left;
+	height: 60px;
+	width: 340px;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #09F;
+}
+#passleft {
+	background-image: url(../image/password.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 60px;
+	width: 60px;
+	margin-left: 80px;
+}
+#choose {
+	height: 60px;
+	width: 285px;
+	line-height: 60px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #09F;
+	margin-left: 195px;
+}
+#sure {
+	height: 60px;
+	width: 480px;
+	text-align: center;
+}
+#submit {
+	height: 30px;
+	width: 150px;
+	font-size: 18px;
+	color: #09F;
+	font-weight: 600;
+	margin-top: 10px;
+	background-image: url(../image/submit.png);
+}
+#submit:hover {
+	background-image: url(../image/submit2.png);
+}

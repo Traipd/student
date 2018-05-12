@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>class</description>
+    <display-name>class</display-name>
+    <servlet-name>TclassformServlet</servlet-name>
+    <servlet-class>cn.edu.servlet.TclassformServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>teacher</description>
+    <display-name>teacher</display-name>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>cn.edu.servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>login</description><!-- 描述信息 -->
+    <display-name>login</display-name><!--显示名称  -->
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.edu.servlet.LoginServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>student</description><!-- 描述信息 -->
+    <display-name>student</display-name><!--显示名称  -->
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>cn.edu.servlet.StudentServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>search</description><!-- 描述信息 -->
+    <display-name>search</display-name><!--显示名称  -->
+    <servlet-name>TsearchServlet</servlet-name>
+    <servlet-class>cn.edu.servlet.TsearchServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <description>regulation</description><!-- 描述信息 -->
+    <display-name>regulation</display-name><!--显示名称  -->
+    <servlet-name>TtoSclassServlet</servlet-name>
+    <servlet-class>cn.edu.servlet.TtoSclassServlet</servlet-class>
+  </servlet>
+ 
+ 
+ <servlet-mapping>
+    <servlet-name>TtoSclassServlet</servlet-name>
+    <url-pattern>/regulation</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>TsearchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>	
+ <servlet-mapping>
+    <servlet-name>TclassformServlet</servlet-name>
+    <url-pattern>/class</url-pattern>
+  </servlet-mapping>	
+ <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/teacher</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/student</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
