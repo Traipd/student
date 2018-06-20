@@ -6,6 +6,6 @@
     1、管理员  2、学生
 ##### 包含的功能：
     角色登录系统、课程信息的增删改查、学生信息的增删改查、按主键筛选学生、学生选课
-![image](https://github.com/Traipd/student/edit/master/image/Demo1.jpg) 
-![image](https://github.com/Traipd/student/edit/master/image/Demo2.jpg) 
-![image](https://github.com/Traipd/student/edit/master/image/Demo3.jpg) 
+![image](https://github.com/Traipd/student/raw/master/image/Demo1.jpg) 
+![image](https://github.com/Traipd/student/raw/master/image/Demo2.jpg) 
+![image](https://github.com/Traipd/student/raw/master/image/Demo3.jpg) 
